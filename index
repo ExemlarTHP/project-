@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part_1</title>
+    <script src="https://kit.fontawesome.com/df0115f0d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <p>CSS Weather Forecast <i class='fas fa-sun'></i></p>
+    </div>
+</header>
+<div class="container">
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2" class="lisbon"> Lisbon <br> 21°C <i class='fas fa-sun'></i> </td>
+                <td class="paris">Paris <br> 11°C <i class='fas fa-cloud-showers-heavy'></i> </td>
+                <td class="belgrade">Belgrade <br> 15°C <i class='fas fa-cloud-sun'></i></td>
+            </tr>
+            <tr>
+                <td class="kyiv">Kyiv <br> 21°C <i class='fas fa-sun'></i></td>
+                <td class="tel__aviv">Tel Aviv <br> 32°C <i class='fas fa-sun'></i></td>
+                <td class="cair">Cair <br> 21°C <i class='fas fa-sun'></i> </td>
+                <td class="new__york">New York <br> 17°C <i class='fas fa-poo-storm'></i></td>    
+            </tr>
+            <tr>
+                <td class="new__delhi">New Delhi <br> 17°C <i class='fas fa-cloud-showers-heavy'></i></td>
+                <td class="san__francisco" colspan="2">San Francisco <br> 15°C <i class='fas fa-cloud-sun'></i></td>
+                <td class="tokyo">Tokyo <br> 8°C <i class='fas fa-cloud-moon'></i></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="sydney">Sydney <br> 25°C <i class='fas fa-cloud-moon'></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<footer>
+    <div class="container">
+        <p>Have a nice day and don`t forget umbrella if you are New Delhi now!</p>
+    </div>
+</footer>
+</body>
+</html>
