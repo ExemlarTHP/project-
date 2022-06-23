@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Part_2</title>
+</head>
+<body>
+    <form class="form">
+        <fieldset class="form__fieldset ">
+          <legend class="form__content">Join the Dark Side!</legend>
+          <nav class="form__nav form__content">
+              <a href="#">About</a>
+              <a href="#">FAQ</a>
+              <a href="#">Contacts</a>
+          </nav>
+          <label for="fname" class="form__label">USERNAME:</label><br>
+          <input type="text" class="form__input" id="fname" placeholder="Your name"><br>
+          <label for="femail" class="form__label">E-MAIL</label><br>
+          <input type="email" class="form__input" id="femail" placeholder="Your email"><br>
+          <label for="fpassword" class="form__label">PASSWORD</label><br>
+          <input type="password" class="form__input" id="fpassword" placeholder="Your password"><br>
+          <label for="freppassword" class="form__label">REPEAT PASSWORD</label><br>
+          <input type="password" class="form__input" id="freppassword" placeholder="Password check"><br><br>
+          <input type="submit" class="form__btn" value="SIGN UP NOW">
+          <a href="#" class="form__link">I am already a member</a> 
+        </fieldset>
+      </form>
+</body>
+</html>
